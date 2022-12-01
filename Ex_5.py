@@ -6,7 +6,7 @@ while  len(out_list) != len(in_list):
     x = in_list[random.randint(0,len(in_list)-1)] 
     if x not in out_list:
         out_list.append(x)
-print('Исходный список - {}\nПолученный список {}'.format(in_list,out_list))
+print('Исходный список - {}\nПолученный список  - {}'.format(in_list,out_list))
     
 
 
